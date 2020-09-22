@@ -1755,14 +1755,14 @@ input, select, textarea {
 		}
 
 		.image.avatar48 {
-			width: 48px;
-			height: 48px;
+			width: 60px;
+			height: 60px;
 			background: #f00;
 		}
 
 			.image.avatar48 img {
-				width: 48px;
-				height: 48px;
+				width: 60px;
+				height: 60px;
 			}
 
 		.image.fit {
@@ -1777,7 +1777,7 @@ input, select, textarea {
 		}
 
 		.image.left {
-			float: left;
+			float: right;
 			margin: 0 2em 2em 0;
 		}
 
