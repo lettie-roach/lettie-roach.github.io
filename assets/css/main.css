@@ -1776,7 +1776,7 @@ input, select, textarea {
 			margin: 0 0 2em 0;
 		}
 
-		.image.left {
+		.image.right {
 			float: right;
 			margin: 0 2em 2em 0;
 		}
@@ -2120,7 +2120,7 @@ input, select, textarea {
 
 		#logo .image {
 			position: absolute;
-			left: 0;
+			right: 0;
 			top: 0;
 		}
 
