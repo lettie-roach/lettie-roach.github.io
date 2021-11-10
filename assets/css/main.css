@@ -37,10 +37,6 @@ ol, ul {
 	list-style: none;
 }
 
-ul {
-    list-style-type: none;
-}
-
 blockquote, q {
 	quotes: none;
 }
@@ -1797,8 +1793,8 @@ input, select, textarea {
 
 /* List */
 
-	ul {
-		list-style: disc;
+	ul{
+                list-style-type: none;
 		padding-left: 1em;
 	}
 
