@@ -128,7 +128,8 @@ em, i {
   font-style: italic; }
 
 p {
-  margin: 0 0 2em 0; }
+  margin: 0 0 2em 0; 
+  font-size: 115%}
 
 h1, h2, h3, h4, h5, h6 {
   color: #3d4449;
@@ -2108,7 +2109,9 @@ button,
         font-size: 1.25em;
         margin: 0; }
       #header .icons {
-        height: 5em;
+	display: inline-block;      
+        text-decoration: none;
+	height: 5em;
         line-height: 5em;
         position: absolute;
         right: -0.5em;
