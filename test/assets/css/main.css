@@ -93,7 +93,7 @@ body {
 body, input, select, textarea {
   color: #7f888f;
   font-family: "Open Sans", sans-serif;
-  font-size: 13pt;
+  font-size: 14pt;
   font-weight: 400;
   line-height: 1.65; }
   @media screen and (max-width: 1680px) {
@@ -1219,8 +1219,15 @@ input[type="radio"] + label:before {
   .image img {
     border-radius: 0.375em;
     display: block; }
+  .image.avatar48 {
+	width: 84px;
+        height: 84px; 
+	background: #f00; }
+	.image.avatar48 img {
+		width: 84px;
+		height: 84px;}	
   .image.left, .image.right {
-    max-width: 40%; }
+    /* max-width: 40%; */ }  
     .image.left img, .image.right img {
       width: 100%; }
   .image.left {
